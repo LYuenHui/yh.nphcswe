@@ -1,14 +1,12 @@
 # yh.nphcswe
 
 ## Background
---------------------
 Language : Java  
 Database : embedded H2 Database  
 Framework : SpringBoot
 
 
-## **BUILD**
-----------
+## **Build and Run**
 1.) Clone the repo
 ````
 git clone https://github.com/LYuenHui/yh.nphcswe.git
@@ -20,7 +18,6 @@ mvn spring-boot:run
 ````
 
 ## **APIs**
-----------
 
 **Upload API**   
 POST http://localhost:8080/users/upload 
