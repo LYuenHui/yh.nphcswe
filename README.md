@@ -1,15 +1,26 @@
 # yh.nphcswe
 
-Background
+## Background
 --------------------
 Language : Java  
 Database : embedded H2 Database  
 Framework : SpringBoot
 
 
+## **BUILD**
+----------
+1.) Clone the repo
+````
+git clone https://github.com/LYuenHui/yh.nphcswe.git
+````
+2.) Go into yh.nphcswe folder  
+3.) Command to start application
+````
+mvn spring-boot:run
+````
 
-
-URL for test 
+## **APIs**
+----------
 
 Function : Upload CSV   
 Method :Post   
