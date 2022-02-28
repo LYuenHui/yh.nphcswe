@@ -10,9 +10,8 @@ Framework : SpringBoot
 1.) Clone the repo
 ````
 git clone https://github.com/LYuenHui/yh.nphcswe.git
-````
-2.) Go into yh.nphcswe folder  
-3.) Command to start application
+```` 
+2.) Command to start application
 ````
 mvn spring-boot:run
 ````
