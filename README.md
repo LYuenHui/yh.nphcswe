@@ -22,29 +22,26 @@ mvn spring-boot:run
 ## **APIs**
 ----------
 
-Function : Upload CSV   
-Method :Post   
-URL : http://localhost:8080/users/upload 
+**Upload API**   
+POST http://localhost:8080/users/upload 
 
-Function : Create   
-Method :Post   
-URL : http://localhost:8080/users
+**Create API**  
+POST http://localhost:8080/users
 
-Function : Fetch all employees with salary range filter  
-Method :Get   
-URL : http://localhost:8080/users?minSalary=300&maxSalary=500
+**Fetch all API**  
+GET http://localhost:8080/users  
+Parameter :  
+  -minSalary(decimal), default value = 0.
+  -maxSalary(decimal), default value = 4000.
 
-Function : Get Employees    
-Method :Get   
-URL : http://localhost:8080/users/{id}
+**Get API**    
+GET http://localhost:8080/users/{id}
 
-Function : Update Employees    
-Method :Put/Patch   
-URL : http://localhost:8080/users/{id}
+**Update API**    
+PUT/PATCH http://localhost:8080/users/{id}
 
-Function : Delete Employees  
-Method :Delete   
-URL : http://localhost:8080/users/{id}
+**Delete API**    
+DELETE http://localhost:8080/users/{id}
 
 
 
